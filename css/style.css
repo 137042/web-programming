@@ -1,0 +1,85 @@
+/*
+ul {
+    color: blue;
+    list-style-type:square;
+}
+
+h2{
+    color: blue;
+}
+
+p{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.bluetext{
+    color: blue;
+}
+
+.redtext{
+    color: red;
+}
+
+#berry{
+    color: purple;
+}
+
+h1 {
+    color:blue;
+}
+
+#title_text{
+    color:green;
+}
+
+.heading{
+    color:red;
+}
+
+ul{
+    color:red;
+}	
+
+ul{
+    color:darkorange;
+}
+
+#container>ul{
+    border: 1px dotted blue;
+}
+
+a[target="_blank"]{
+    color: olive;
+}
+
+a:hover{
+    background-color: yellow;
+    color: red;
+}
+
+input:focus{
+    background-color: yellow;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.box, p{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    line-height: 50px;
+    text-align: center;
+}
+
+div:nth-child(1){
+    background-color: red;
+}
+*/
+
+a{
+    text-decoration: none;
+}
