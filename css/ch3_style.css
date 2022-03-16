@@ -1,0 +1,153 @@
+/*
+.box1 {
+    width: 200px;
+    height: 100px;
+    background:orange;
+    padding:10px 30px 10px 30px;
+    border-style:solid;
+ }
+
+.box2 {
+    width: 50%;
+    height: 100px;
+    background:blue;
+    padding:10px 30px;
+    border-style:dotted;
+}
+
+.box3 {
+    width: auto;
+    height: auto;
+    background:aqua;
+    padding:10px;
+    border-style:dashed;
+}
+
+.outer {
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.inner {
+    box-sizing: border-box;
+    border: 2px dotted red;
+    width: 100%;
+    padding-left: 40px;
+}
+
+*{
+    border: 1px dotted red;
+}
+
+.box {
+    display: block;
+    width: 200px;
+    height: 100px;
+    background-color: indianred;            
+    margin: 10px;
+}
+
+.box {
+    display: inline;
+    width: 200px;
+    height: 100px;
+    background-color:yellowgreen;            
+    margin: 10px;
+}
+
+.container{
+    font-size: 0;
+}
+
+.box{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    text-align: center;
+    line-height: 200px;
+    border: 1px solid black;
+    font-size: 1rem;
+}
+*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: #f6ca00;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 0;
+    height: 100%;
+}
+
+.hd_fixed{
+    height: 90px;
+}
+
+.hd_content{
+    height: 100%;
+}
+
+.logo, .gnb_menu{
+    display: inline-block;
+    height: 100%;
+}
+
+.logo{
+    padding-left: 50px;
+    padding-right: 50px;
+    vertical-align: top;
+}
+
+.gnb_menu{
+    vertical-align: middle;
+}
+
+.logo h1{
+    width: 100%;
+    line-height: 90px;
+    text-align: center;
+}
+
+.dp1{
+    display: inline-block;
+    height: 100%;
+    font-size: 1rem;
+}
+
+ul li a{
+    line-height: auto;
+    padding: 30px;
+    line-height: 90px;
+}
+
+.float-container{
+    width: 800px;
+    border: 2px solid #09c;
+}
+
+.float-container img {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #90c;
+}

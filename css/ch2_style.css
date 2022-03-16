@@ -61,6 +61,7 @@ a:hover{
 input:focus{
     background-color: yellow;
 }
+*/
 
 *{
     padding: 0;
@@ -78,7 +79,6 @@ input:focus{
 div:nth-child(1){
     background-color: red;
 }
-*/
 
 a{
     text-decoration: none;
