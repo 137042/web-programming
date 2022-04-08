@@ -30,7 +30,6 @@ function logEvent(event){
     event.stopPropagation();
     console.log(event.currentTarget.className);
 }
-*/
 
 window.onload = () => {
     // let lis = document.querySelectorAll('#sampleList li');
@@ -44,12 +43,10 @@ window.onload = () => {
     let btnAdd = document.getElementById("addBtn");
     btnAdd.addEventListener("click", addLi);
 }
-
 function remove(event){
     let selectedLi = document.getElementById(event.target.id);
     selectedLi.classList.toggle("remove");
 }
-
 function addLi(){
     let ul = document.querySelector("#sampleList");
     var cnt = ul.children.length + 1;
@@ -61,3 +58,19 @@ function addLi(){
 
     ul.appendChild(li);
 }
+*/
+window.onload = () => {
+    let bg = document.querySelector(".main_hansot .main_hansot_bg");
+    console.log(bg);
+
+    bg.addEventListener("mouseenter", (event) => {
+      event.target.classList.add("on");
+      console.log("mouseenter");
+    });
+    
+    bg.addEventListener("mouseleave", (event) => {
+      event.target.classList.remove("on");
+      console.log("mouseleave");
+    });
+  };
+  
