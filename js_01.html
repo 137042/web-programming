@@ -6,24 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/js_01_style.css" />
     <script src="js/js_01_script.js"></script>
-    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    <script src="https://kit.fontawesome.com/3dc61b8a29.js" crossorigin="anonymous"></script>    
 </head>
 <body>
-    <div class="body-container">
-        <div class="side-bar">
-            <div class="open" onclick="unfold()">
-                <h1>open</h1>
-            </div>
+    <div class="side-bar">
+        <button class="open" onclick="unfold()">
+            &nbsp<i class="fa-solid fa-bars"></i>&nbspOPEN
+        </button>
 
-            <div class="menu hidden">
-                <i class="fa-solid fa-xmark"></i>
-                <div>음식</div>
-                <div>가전</div>
-                <div>가구</div>
-                <div>캠핑용품</div>
-            </div>
+        <div class="menu hidden">
+            <i class="fa-solid fa-xmark" onclick="fold()"></i>
+            <a href="#">음식</a><br>
+            <a href="#">가전</a><br>
+            <a href="#">가구</a><br>
+            <a href="#">캠핑용품</a><br>
         </div>
-        
+    </div>
+
+    <div class="body-container">
         <div class="imgs">
 
         </div>

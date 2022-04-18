@@ -7,11 +7,40 @@
     display: none;
 }
 
-#hbg-icon{
-    width: 10%;
-    height: 10%;
+a{
+    color: black;
+    text-decoration: none;
 }
 
-#hbg-icon img{
-    background-size: contain;
+a:visited{
+    color: black;
+}
+
+.open{
+    border: 0;
+    outline: 0;
+    background-color: #FFFFFF;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 0.3%;
+}
+
+.menu{
+    width: 15%;
+    height: 50%;
+    color: #5b5a5a;
+    font-size: larger;
+    font-weight: bold;
+    line-height: 200%;
+    background-color: #111111;
+}
+
+.menu i{
+    padding: 10% 10% 10% 70%;
+}
+
+.menu a{
+    color: #5b5a5a;
+    padding: 10%;
+
 }
