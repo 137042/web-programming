@@ -16,31 +16,107 @@ a:visited{
     color: black;
 }
 
+body{
+    overflow: auto;
+    position: relative;
+    z-index: 0;
+}
+
 .open{
     border: 0;
     outline: 0;
-    background-color: #FFFFFF;
+    width: 120px;
+    height: 40px;
     font-size: x-large;
     font-weight: bold;
-    padding: 0.3%;
+    background-color: rgba(255, 255, 255, 0.0);
+    position: absolute;
+    z-index: 2;
 }
 
 .menu{
-    width: 15%;
-    height: 50%;
+    width: 200px;
+    height: 700px;
     color: #5b5a5a;
     font-size: larger;
     font-weight: bold;
     line-height: 200%;
     background-color: #111111;
+    position: absolute;
+    z-index: 2;
 }
 
 .menu i{
-    padding: 10% 10% 10% 70%;
+    margin: 10% 10% 10% 70%;
 }
 
 .menu a{
     color: #5b5a5a;
     padding: 10%;
 
+}
+
+.img {
+    width: 500px;
+    height: 500px;
+    margin: 50px 100px;
+    border: 1px solid #111111;
+    background-image: url("../img/1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+}
+
+.info-tab{
+    width: 500px;
+    max-height: 600px;
+    margin: 50px 602px;
+    background-color: #d3d3d3;
+    position: absolute;
+    z-index: 1;
+}
+
+.info-tab fieldset{
+    margin: 1%;
+}
+
+.text{
+    margin: 1%;
+}
+
+.title{
+    height: 40px;
+    font-size: large;
+    color: #5e5e5e;
+    line-height: 40px;
+    padding: 10px;
+    background-color: #eeeeee;
+    position: relative;
+    cursor: pointer;
+}
+
+.info{
+    display: none;
+    overflow: hidden;
+}
+
+.active{
+    background-color: #d3d3d3;
+}
+
+.option-A input, .option-B input, .option-C input{
+    width: 50px;
+}
+
+.option-A button, .option-B button, .option-C button{
+    width: 20px;
+}
+
+.order-check{
+    margin: 1% 1% 1% 75%;
+}
+
+.buy{
+    margin: 1%;
 }

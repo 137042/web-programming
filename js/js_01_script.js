@@ -16,3 +16,16 @@ function fold(){
     })
 }
 
+$(".title").on("click", function() {
+
+function slideDown(){
+    $(".info").addClass("hidden");
+    $(this).next().removeClass("hidden");
+}
+
+function slideUp(){
+    $(this).next().addClass("hidden");
+}
+
+$(this).next().hasClass("hidden") ? slideDown() : slideUp();
+});
