@@ -56,22 +56,41 @@ body{
 
 }
 
-.img {
+.slideshow-container {
     width: 400px;
     height: 400px;
     margin: 50px 100px;
-    border: 1px solid #111111;
-    background-image: url("../img/1.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
     position: absolute;
     z-index: 1;
-}
+  }
+
+  .mySlides img{
+      width: 100%;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #5b5a5a;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
 
 .info-tab{
     width: 600px;
     max-height: 600px;
-    margin: 50px 502px;
+    margin: 50px 500px;
     background-color: #d3d3d3;
     position: absolute;
     z-index: 1;
@@ -81,7 +100,7 @@ body{
     margin: 1%;
 }
 
-.text{
+.tent{
     margin: 1%;
 }
 
@@ -124,7 +143,8 @@ body{
 }
 
 .order-check{
-    margin: 1% 1% 1% 75%;
+    text-align: center;
+    margin: 1%;
 }
 
 .buy{

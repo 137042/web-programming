@@ -22,13 +22,24 @@
             <a href="#">캠핑용품</a><br>
         </div>
     </div>
-
     <div class="body-container">
-        <div class="img"></div>
+        <div class="slideshow-container">
+            <div class="mySlides">
+                <img src="img/1.jpg">
+            </div>
+            <div class="mySlides hidden">
+                <img src="img/2.jpg">
+            </div>    
+            <div class="mySlides hidden">
+                <img src="img/3.jpg">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
         <div class="info-tab">
             <fieldset>
                 <legend>&nbsp상세정보&nbsp</legend>
-                <div class="text">
+                <div class="tent">
                     알프랑 그늘막 팝업 스피드 원터치 텐트
                 </div>
                 <button class="title">판매자 정보</button>
@@ -46,7 +57,7 @@
                 <button class="title">주문 정보</button>
                 <div class="panel hidden">
                     <select id="tents" onchange="show()">
-                        <option value="none">=== 선택 ===</option>
+                        <option value="none" id="none">=== 선택 ===</option>
                         <option value="tent-A">A. 스피드 원터치 팝업텐트(3~4인용)</option>
                         <option value="tent-B">B. 5초 원터치 텐트(3인용)</option>
                         <option value="tent-C">C. 5초 원터치 텐트(5인용)</option>
@@ -77,8 +88,8 @@
                         <span class="tag">0</span>원
                     </div>
                 </div>
-                <div class="order-check">총 상품금액 0원</div>
-                <button class="buy">구매하기</button>
+                <div class="order-check">총 상품금액&nbsp<span class="total-price">0</span>원</div>
+                <button class="buy" onclick="buy()">구매하기</button>
             </fieldset>            
         </div>
     </div>
